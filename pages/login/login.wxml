@@ -1,0 +1,5 @@
+<!--pages/login/login.wxml-->
+<view class="userinfo">
+  <view wx:if="{{!isLogin}}">正在登录</view>
+  <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+</view>

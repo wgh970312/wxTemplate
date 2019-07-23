@@ -1,0 +1,5 @@
+<template name="t1">
+  <view id='t1'>
+    <view class='info' bindtap='bindViewTap'>欢迎你 {{userInfo.nickName}} {{info}}</view>
+  </view>
+</template>

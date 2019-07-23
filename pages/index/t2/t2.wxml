@@ -1,0 +1,5 @@
+<template name="t2">
+  <view id='t2'>
+    <view class='info' bindtap='clickPage'>Welcome {{userInfo.nickName}} {{info}}</view>
+  </view>
+</template>
